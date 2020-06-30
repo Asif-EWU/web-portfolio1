@@ -47,8 +47,9 @@ h2 {
 }
 
 .experience-header {
-    margin-left: 5%;
-    margin-top: 60px;
+    background-color: dimgray;
+    color: whitesmoke;
+    margin-top: 50px;
 }
 
 .link-button {
