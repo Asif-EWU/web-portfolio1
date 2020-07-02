@@ -19,8 +19,7 @@ img {
 }
 
 section {
-    height: 500px;
-    padding-bottom: 150px;
+    overflow: auto;
 }
 
 .top-banner {
@@ -44,12 +43,11 @@ h2 {
 
 .experience {
     background: url('images/exp-bg.png') no-repeat top 150px left;
+    padding-bottom: 100px;
 }
 
 .experience-header {
-    background-color: dimgray;
-    color: whitesmoke;
-    margin-top: 50px;
+    margin-left: 5%;
 }
 
 .link-button {
@@ -69,6 +67,10 @@ h2 {
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
     height: 250px;
+}
+
+footer {
+    margin-top: 150px;
 }
 
 footer p {
